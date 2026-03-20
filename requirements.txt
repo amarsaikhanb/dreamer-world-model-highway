@@ -1,0 +1,8 @@
+gymnasium>=0.29.0
+highway-env>=1.8
+torch>=1.12.0
+torchvision>=0.13.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+imageio>=2.20.0
+opencv-python>=4.6.0
