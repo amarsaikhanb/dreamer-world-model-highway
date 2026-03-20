@@ -1,10 +1,15 @@
-# Dream the Road: Tiny Dreamer for Highway-env
+# Dream the Road: Tiny Dreamer for Highway-env 🚗
 
 > A Dreamer V1 world model implemented from scratch in PyTorch, applied to autonomous highway driving.
 
 **Course:** CSC 580 Artificial Intelligence II, Winter 2026, DePaul University
 
 **Author:** Amarsaikhan Batjargal
+
+---
+
+![Dreamer comparison](videos/dreamer_comparison.gif)
+
 
 
 ---
@@ -75,6 +80,7 @@ dream-the-road/
 ├── README.md                          # This file
 ├── dream_theroad_tiny_dreamer.ipynb   # Main notebook (full implementation, training, and evaluation)
 ├── requirements.txt                   # Python dependencies
+├── models.py                          # All 
 ├── figures/
 │   ├── architecture.png               # Architecture diagram
 │   ├── sample_frame.png               # Raw vs preprocessed environment frame
