@@ -84,6 +84,8 @@ dreamer-world-model-highway/
 ├── dream_theroad_tiny_dreamer.html    # Main notebook as an HTML
 ├── requirements.txt                   # Python dependencies
 ├── models.py                          # All 
+├── docs/
+│   ├── CSC580_Default_Final_Project___Amarsaikhan_Batjargal___Report.pdf  # Write up report
 ├── figures/
 │   ├── architecture.png               # Architecture diagram
 │   ├── sample_frame.png               # Raw vs preprocessed environment frame
@@ -94,7 +96,7 @@ dreamer-world-model-highway/
 ├── videos/
 │   ├── dreamer_comparison.mp4         # Side-by-side: actual vs world model predictions
 │   ├── dreamer_comparison.gif         # Previous video as a GIF
-│   ├── pure_imagination.mp4           # The world model dreams a trajectory from a single frame
+│   ├── pure_imagination.mp4           # The world model dreams a trajectory from a single frame  
 │   └── agent_driving.mp4              # Trained agent driving in the real environment
 └── checkpoints/
     └── dreamer_highway_checkpoint.pt  # Saved model weights, and training metrics
