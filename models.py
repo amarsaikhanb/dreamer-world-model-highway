@@ -1,9 +1,7 @@
 """
-- CSC 580 - Artificial Intelligence II, Winter 2026
-- CSC 580 Winter 2026
+- CSC 580 - Artificial Intelligence II, Winter 2026, Section 801
 - Default Final Project - Option 1 (World Model: Dreamer V1 World Model Components for Highway-env)
 - Student name: Amarsaikhan Batjargal
-- Student ID: 2120574
 - AI Tools Consulted: Claude (Anthropic) for code structure guidance and debugging  
 """
 
