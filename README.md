@@ -2,7 +2,7 @@
 
 > A Dreamer V1 world model implemented from scratch in PyTorch, applied to autonomous highway driving.
 
-- **Course:** CSC 580 Artificial Intelligence II, Winter 2026, DePaul University
+- **Course:** CSC 580 Artificial Intelligence II, Winter 2026, Section 801, DePaul University
 - **Author:** Amarsaikhan Batjargal
 
 ---
@@ -78,9 +78,10 @@ Real Experience -> Replay Buffer -> Train World Model (supervised)
 ## Project Structure
 
 ```
-dream-the-road/
+dreamer-world-model-highway/
 ├── README.md                          # This file
 ├── dream_theroad_tiny_dreamer.ipynb   # Main notebook (full implementation, training, and evaluation)
+├── dream_theroad_tiny_dreamer.html    # Main notebook as an HTML
 ├── requirements.txt                   # Python dependencies
 ├── models.py                          # All 
 ├── figures/
@@ -119,6 +120,8 @@ dream-the-road/
 | Dreamer policy reward | 119.76 +/- 39.65 |
 | Best episode | 158.89 |
 | Episode survival | 200/200 steps (100%) |
+
+
 
 
 ## Live Demo
