@@ -2,14 +2,16 @@
 
 > A Dreamer V1 world model implemented from scratch in PyTorch, applied to autonomous highway driving.
 
-**Course:** CSC 580 Artificial Intelligence II, Winter 2026, DePaul University
-
-**Author:** Amarsaikhan Batjargal
+- **Course:** CSC 580 Artificial Intelligence II, Winter 2026, DePaul University
+- **Author:** Amarsaikhan Batjargal
 
 ---
 
-![Dreamer comparison](videos/dreamer_comparison.gif)
-
+<p align="center">
+  <img src="videos/dreamer_comparison.gif" alt="Actual vs Imagined driving comparison" width="600">
+  <br>
+  <em>Left: Actual environment frames. Right: World model's imagination from the same starting state.</em>
+</p>
 
 
 ---
@@ -90,7 +92,8 @@ dream-the-road/
 │   └── evaluation_results.png         # Policy comparison + per-episode rewards
 ├── videos/
 │   ├── dreamer_comparison.mp4         # Side-by-side: actual vs world model predictions
-│   ├── pure_imagination  .mp4         # The world model dreams a trajectory from a single frame
+│   ├── dreamer_comparison.gif         # Previous video as a GIF
+│   ├── pure_imagination.mp4           # The world model dreams a trajectory from a single frame
 │   └── agent_driving.mp4              # Trained agent driving in the real environment
 └── checkpoints/
     └── dreamer_highway_checkpoint.pt  # Saved model weights, and training metrics
